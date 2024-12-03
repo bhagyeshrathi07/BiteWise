@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "@mui/material": "^5.15.15",
+    "@mui/icons-material": "^5.15.16",
+    "axios": "^1.6.8",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "@lottiefiles/lottie-player": "^2.0.4",
+    "passport": "^0.7.0",
+    "js-cookie": "^3.0.5",
+    "express-validator": "^7.0.1",
+    "from": "^0.1.7",
+    "import": "^0.0.6",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.3.4",
+    "morgan": "^1.10.0",
+    "passport-google-oauth20": "^2.0.0",
+    "uuid": "^9.0.1"
+  }
+}

@@ -1,0 +1,566 @@
+/* Used for redirect to food delivery page */
+
+.frame-childs-redirect {
+  align-self: stretch;
+  width: 100px;
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  padding-left: 0;
+}
+.progress-circles {
+  padding: 10px 10px 0 30px;
+}
+.uber-eatss {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: smaller !important;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-family: inherit;
+  flex-shrink: 0;
+  z-index: 3;
+}
+.frame-child4s {
+  position: absolute;
+  top: 76px;
+  left: 104px;
+  width: 86px;
+  height: 20px;
+  z-index: 2;
+}
+.frame-child5s {
+  position: absolute;
+  top: 40px;
+  left: 104px;
+  width: 128px;
+  height: 24px;
+  z-index: 2;
+}
+.dilac-vegan-vietnameses {
+  margin: 0;
+  position: absolute;
+  top: 0px;
+  left: 104px;
+  font-size: inherit;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  width: 408px;
+}
+.image-5-icons {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: var(--br-3xs);
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+.data-validators {
+  position: absolute;
+  top: -9px;
+  left: -1px;
+  width: 98px;
+  height: 102px;
+}
+.mi2s {
+  position: absolute;
+  top: 40px;
+  left: 253px;
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  display: inline-block;
+  min-width: 58px;
+  z-index: 4;
+}
+.frame-parent8s {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 90px;
+  overflow: hidden;
+  z-index: 3;
+}
+.frame-parent7s {
+  align-self: stretch;
+  height: 96px;
+  position: relative;
+}
+.vietnameses {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 73px;
+}
+.vietnamese-wrappers {
+  border-radius: var(--br-7xs);
+  background-color: var(--color-gray-500);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) var(--padding-10xs) var(--padding-11xs);
+  z-index: 2;
+}
+.vegans {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 40px;
+}
+.vegan-wrappers {
+  border-radius: var(--br-7xs);
+  background-color: var(--color-gray-500);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) var(--padding-5xs) var(--padding-11xs);
+  z-index: 2;
+}
+.good-for-dinners {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 95px;
+}
+.good-for-dinner-wrappers {
+  flex: 0.9406;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-gray-500);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) var(--padding-4xs-5) var(--padding-11xs);
+  box-sizing: border-box;
+  min-width: 73px;
+  white-space: nowrap;
+  z-index: 2;
+}
+.family-businesses {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 97px;
+}
+.family-business-wrappers {
+  flex: 1;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-gray-500);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) var(--padding-7xs-5) var(--padding-11xs);
+  box-sizing: border-box;
+  min-width: 70px;
+  white-space: nowrap;
+  z-index: 2;
+}
+.frame-parent9s {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mini-3);
+  max-width: 100%;
+}
+.frame-divs-redirect {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px;
+  padding-left: 0px;
+}
+.frame-wrapperss {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  right: 10px;
+  position: relative;
+  top: -30px;
+}
+.frame-wrapper9s {
+  width: 424px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-smi);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--font-size-xs);
+  color: var(--color-black);
+}
+.frame-parent6s {
+  width: 512px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-7xl);
+  max-width: 100%;
+}
+.frame-wrapper8s {
+  width: 574.6px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: center;
+  justify-content: flex-end;
+  padding: 0px 0px var(--padding-5xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.line-icons {
+  width: 3.9px;
+  flex: 1;
+  position: relative;
+  max-height: 100%;
+  object-fit: contain;
+  z-index: 1;
+}
+.vector-containers {
+  height: 208px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-5xl) 0px 0px;
+  box-sizing: border-box;
+}
+.group-icon2s {
+  position: absolute;
+  top: 3px;
+  left: 173px;
+  width: 82px;
+  height: 36px;
+  z-index: 2;
+}
+.uber-eats-parents2 {
+  position: absolute;
+  width: calc(100% - 60px);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: 100%;
+}
+.group-parents-uber {
+  align-self: stretch;
+  height: 76px;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.group-icons-redirect {
+  max-height: 30px;
+  width: auto;
+  margin-left: 170px;
+}
+.doordashes {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-family: inherit;
+  flex-shrink: 0;
+  z-index: 3;
+}
+.best-deal2s {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+  flex-shrink: 0;
+  z-index: 4;
+}
+.rating-components {
+  width: 132px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-11xs);
+  box-sizing: border-box;
+  margin-top: -8px;
+  font-size: var(--font-size-5xl);
+  color: var(--color-gray-100);
+}
+.calendar-views {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: 100%;
+}
+.modal-windows {
+  align-self: stretch;
+  height: 76px;
+  position: relative;
+}
+.divs {
+  position: relative;
+  text-transform: capitalize;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 59px;
+  white-space: nowrap;
+  z-index: 2;
+}
+.est-fee2s {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  color: var(--color-gray-100);
+  z-index: 3;
+}
+.range-sliders {
+  width: 75px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.min2s {
+  position: relative;
+  text-transform: capitalize;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 69px;
+  z-index: 2;
+}
+.est-time2s {
+  position: relative;
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  color: var(--color-gray-100);
+  display: inline-block;
+  min-width: 75px;
+  z-index: 3;
+}
+.min-groups {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.radio-button-sets {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.radio-button-set-wrappers {
+  width: 217px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-6xs);
+  box-sizing: border-box;
+  font-size: var(--font-size-xl);
+}
+.tool-tips {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xl);
+}
+.split-containers {
+  width: 262px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0px 0px var(--padding-6xl);
+  box-sizing: border-box;
+  font-size: var(--font-size-13xl);
+}
+.tabss {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.timers {
+  height: 137px;
+  width: 272px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--font-size-xl);
+  color: var(--color-gray-400);
+}
+.group-divs {
+  align-self: stretch;
+  border-radius: var(--br-12xl);
+  background-color: var(--neutral-white);
+  border: 2px solid var(--color-gray-400);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0px var(--padding-12xl) var(--padding-12xs);
+  gap: var(--gap-11xs);
+  width: 1120px;
+}
+.sequence-controllers {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-26xl);
+  min-width: 894px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-gray-200);
+  font-family: var(--font-poppins);
+  padding: 0px 68px 0px;
+}
+.rectangle-parents {
+  padding: 0;
+  max-width: 970px !important;
+  margin-right: 200px;
+}
+.spinners {
+  margin-left: -70px;
+}
+.frame-containers {
+  margin-left: -80px;
+  flex-direction: column;
+  margin-right: var(--padding-xl);
+}
+.weather-displays {
+  margin-top: 10px;
+}
+.image-manipulation-parents > div {
+  background-color: var(--color-gray-500);
+  padding: 5px;
+  margin-bottom: 5px;
+  border-radius: var(--br-7xs);
+}
+.view-all-deals-link {
+  text-decoration: none;
+}
+
+.view-all-deals-button2 {
+  cursor: pointer;
+}
+
+.view-all-dealss {
+  margin: 0;
+  font-size: 20px;
+  color: #808080;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+.view-all-deals-link:hover .view-all-deals-button {
+  text-decoration: underline;
+}
+@media screen and (max-width: 1325px) {
+  .group-divs {
+    flex-wrap: wrap;
+  }
+  .frame-containers {
+    margin-left: 100px;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .sequence-controllers {
+    min-width: 100%;
+  }
+  .frame-containers {
+    margin-left: 100px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .doordashes {
+    font-size: var(--font-size-7xl);
+  }
+
+  .sequence-controllers {
+    gap: var(--gap-3xl);
+  }
+  .frame-containers {
+    margin-left: 100px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .dilac-vegan-vietnameses {
+    font-size: var(--font-size-lgi);
+  }
+  .frame-containers {
+    margin-left: 100px;
+  }
+  .good-for-dinner-wrappers {
+    flex: 1;
+  }
+
+  .frame-parent9s {
+    flex-wrap: wrap;
+  }
+
+  .doordashes {
+    font-size: var(--font-size-lgi);
+  }
+
+  .best-deal2s {
+    font-size: var(--font-size-lgi);
+  }
+
+  .divs {
+    font-size: var(--font-size-base);
+  }
+
+  .min2s {
+    font-size: var(--font-size-base);
+  }
+
+  .tabs-childs {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+
+  .view-all-deals2s {
+    font-size: var(--font-size-base);
+  }
+
+  .rating-scales {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+  }
+}

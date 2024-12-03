@@ -1,0 +1,607 @@
+.delete-button17 {
+    margin-left: auto;
+  }
+  .delete17 {
+    color: "#fff";
+    background-color: #e71010;
+  }
+  .delete:hover17 {
+    background-color: #fc5e5e;
+  }
+  
+  .subtract-icon117 {
+    width: 23.1px;
+    height: 20.9px;
+    position: relative;
+    border-radius: var(--br-lg);
+    flex-shrink: 0;
+  }
+  .search-bar17 {
+    height: 26.8px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-7xs-9) 0px 0px;
+    box-sizing: border-box;
+  }
+  .bitewise117 {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    font-weight: 700;
+    font-family: inherit;
+    display: inline-block;
+    min-width: 126px;
+    flex-shrink: 0;
+  }
+  .bite-wise-label17 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 9.9px;
+  }
+  .image-placeholder-child17 {
+    border: none;
+    background-color: transparent;
+    height: 49px;
+    flex: 1;
+    font-family: var(--font-inter);
+    font-weight: 500;
+    font-size: var(--h4-size);
+    color: var(--color-gray-100);
+    opacity: 0.75;
+    min-width: 292px;
+    max-width: 100%;
+  }
+  .vector-icon17 {
+    position: absolute;
+    height: 39.33%;
+    width: 32%;
+    top: 7%;
+    right: 36%;
+    bottom: 53.67%;
+    left: 32%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .bag-child17 {
+    position: absolute;
+    height: 68%;
+    width: 68%;
+    top: 28.67%;
+    right: 17.67%;
+    bottom: 3.33%;
+    left: 14.33%;
+    border-radius: var(--br-8xs-6);
+    border: 2px solid var(--color-gray-200);
+    box-sizing: border-box;
+    z-index: 1;
+  }
+  .bag117 {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .category-field17 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-3xs-5) 0px 0px;
+  }
+  .sign-in217 {
+    height: 49px;
+    width: 96px;
+  }
+  .image-placeholder17 {
+    width: 626px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-6xl);
+    max-width: 100%;
+  }
+  .image-1-icon117 {
+    height: 68px;
+    width: 213px;
+    position: absolute;
+    margin: 0 !important;
+    top: -10px;
+    left: -31px;
+    object-fit: cover;
+    z-index: 1;
+  }
+  .subtract-button17 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 0px 0px 0px;
+    box-sizing: border-box;
+    position: relative;
+    max-width: 100%;
+    gap: var(--gap-xl);
+  }
+  .register-business17 {
+    margin: 0;
+    width: 313px;
+    position: relative;
+    font-size: inherit;
+    font-weight: 600;
+    font-family: inherit;
+    display: inline-block;
+    flex-shrink: 0;
+    white-space: nowrap;
+  }
+  .business-registration17 {
+    align-self: stretch;
+    border-bottom: 1px solid var(--color-gray-100);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-3xs);
+    top: 0;
+    z-index: 99;
+    position: sticky;
+    text-align: left;
+    font-size: var(--font-size-5xl);
+    color: var(--color-black);
+    font-family: var(--font-poppins);
+  }
+  .state-zipcode-fields-child17 {
+    width: 1142px;
+    height: 725px;
+    position: relative;
+    border-radius: var(--br-xl);
+    background-color: var(--color-whitesmoke-200);
+    display: none;
+    max-width: 100%;
+  }
+  .state-zipcode-fields-item17 {
+    width: 192px;
+    height: 36px;
+    display: none;
+  }
+  .state-zipcode-fields-inner17 {
+    width: 309px;
+    display: none;
+  }
+  .add-business17 {
+    margin: 0;
+    position: relative;
+    font-size: var(--font-size-5xl);
+    font-weight: 600;
+    font-family: var(--font-poppins);
+    color: var(--color-gray-200);
+    text-align: left;
+    z-index: 1;
+  }
+  .email-input-field17 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0px var(--padding-xl);
+  }
+  .frame-child-name17 {
+    border: none;
+    background-color: transparent;
+    height: 47px;
+    flex: 1;
+    font-family: var(--font-inter);
+    font-weight: 500;
+    font-size: var(--font-size-sm);
+    color: var(--color-gray-100);
+    min-width: 198px;
+    z-index: 2;
+  }
+  .frame-item17 {
+    border: none;
+    background-color: transparent;
+    height: 49px;
+    flex: 1;
+    font-family: var(--font-inter);
+    font-weight: 500;
+    font-size: var(--font-size-sm);
+    color: var(--color-gray-100);
+    min-width: 198px;
+    z-index: 2;
+  }
+  .frame-container17 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 0px 0px var(--padding-9xs);
+    gap: var(--gap-smi);
+  }
+  .city-input17 {
+    border: none;
+    background-color: transparent;
+    align-self: stretch;
+    height: 47px;
+    font-family: var(--font-inter);
+    font-weight: 500;
+    font-size: var(--font-size-sm);
+    color: var(--color-gray-100);
+    z-index: 1;
+  }
+  .subtract-icon217 {
+    border: none;
+    background-color: transparent;
+    align-self: stretch;
+    height: 47px;
+    font-family: var(--font-inter);
+    font-weight: 500;
+    font-size: var(--font-size-sm);
+    color: var(--color-gray-100);
+    z-index: 1;
+  }
+  .blog-label17 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 2px 0px 0px;
+    box-sizing: border-box;
+    min-width: 155px;
+  }
+  .delivery-info-label17 {
+    border: none;
+    background-color: transparent;
+    height: 47px;
+    width: 173px;
+    font-family: var(--font-inter);
+    font-weight: 500;
+    font-size: var(--font-size-sm);
+    color: var(--color-gray-100);
+    z-index: 1;
+  }
+  .delivery-info-label117 {
+    border: none;
+    background-color: transparent;
+    height: 47px;
+    width: 173px;
+    font-family: var(--font-inter);
+    font-weight: 500;
+    font-size: var(--font-size-sm);
+    color: var(--color-gray-100);
+    z-index: 1;
+  }
+  .calorie-calculator-label17 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0px 0px var(--padding-5xs);
+    gap: 19px;
+  }
+  .city-input117 {
+    border: none;
+    background-color: transparent;
+    align-self: stretch;
+    height: 47px;
+    font-family: var(--font-inter);
+    font-weight: 500;
+    font-size: var(--font-size-sm);
+    color: var(--color-gray-100);
+    z-index: 2;
+  }
+  .zipcode-input17 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10px;
+    max-width: 100%;
+  }
+  .state-input17 {
+    width: 630px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0px var(--padding-9xs);
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .owner-details17 {
+    margin: 0;
+    position: relative;
+    font-size: var(--font-size-5xl);
+    font-weight: 600;
+    font-family: var(--font-poppins);
+    color: var(--color-gray-200);
+    text-align: left;
+    z-index: 2;
+  }
+  .owner-details-wrapper17 {
+    width: 608px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0px var(--padding-xl);
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .phone-number-input117 {
+    border: none;
+    background-color: transparent;
+    height: 47px;
+    flex: 1;
+    font-family: var(--font-inter);
+    font-weight: 500;
+    font-size: var(--font-size-sm);
+    color: var(--color-gray-100);
+    min-width: 198px;
+    z-index: 1;
+  }
+  .last-name-input-child17 {
+    border: none;
+    background-color: transparent;
+    height: 49px;
+    flex: 1;
+    font-family: var(--font-inter);
+    font-weight: 500;
+    font-size: var(--font-size-sm);
+    color: var(--color-gray-100);
+    min-width: 198px;
+    z-index: 1;
+  }
+  .last-name-input17 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: center;
+    gap: var(--gap-smi);
+  }
+  .frame-parent1217 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .phone-number-email17 {
+    border: none;
+    background-color: transparent;
+    align-self: stretch;
+    height: 54px;
+    font-family: var(--font-inter);
+    font-weight: 500;
+    font-size: var(--font-size-sm);
+    color: var(--color-gray-100);
+    z-index: 1;
+  }
+  .phone-number-email117 {
+    border: none;
+    background-color: transparent;
+    align-self: stretch;
+    height: 54px;
+    font-family: var(--font-inter);
+    font-weight: 500;
+    font-size: var(--font-size-sm);
+    color: var(--color-gray-100);
+    z-index: 1;
+  }
+  .phone-number-email-parent17 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0px 0px 14px;
+    gap: var(--gap-4xs);
+  }
+  .sign-in317 {
+    height: 49px;
+    width: 143px;
+    z-index: 1;
+  }
+  .sign-in-wrapper17 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0px var(--padding-xl) 0px var(--padding-8xl);
+  }
+  .frame-divv17 {
+    width: 622px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 18px;
+    max-width: 100%;
+  }
+  .state-zipcode-fields17 {
+    margin: 0;
+    width: 1142px;
+    border-radius: var(--br-xl);
+    background-color: var(--color-whitesmoke-200);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 56px 249px 38px;
+    box-sizing: border-box;
+    gap: 48px;
+    max-width: 100%;
+  }
+  .phone-number-input17 {
+    width: 1506px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0px var(--padding-xl);
+    box-sizing: border-box;
+    max-width: 100%;
+    border: 1px solid var(--color-gray-100);
+    margin-left: 100px !important;
+  }
+  .business-registration-parent17 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 61px;
+    max-width: 100%;
+    /* border: 1px solid var(--color-gray-100); */
+  }
+  .subtract-button-parent17 {
+    width: 1520px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-31xl);
+    max-width: 100%;
+  }
+  .store-registration17 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0px var(--padding-xl);
+    box-sizing: border-box;
+    max-width: 100%;
+    text-align: left;
+    font-size: var(--font-size-9xl);
+    color: var(--color-gray-200);
+    font-family: var(--font-poppins);
+  }
+  .register-as-store-owner17 {
+    width: 100%;
+    position: relative;
+    background-color: var(--color-white);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-41xl) 0px 0px;
+    box-sizing: border-box;
+    gap: 119px;
+    letter-spacing: normal;
+  }
+  
+  @media screen and (max-width: 1125px) {
+    .state-zipcode-fields17 {
+      padding-left: var(--padding-105xl);
+      padding-right: var(--padding-105xl);
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 1025px) {
+    .subtract-button17 {
+      flex-wrap: wrap;
+    }
+  
+    .register-as-store-owner17 {
+      gap: 59px 119px;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .image-placeholder17 {
+      flex-wrap: wrap;
+    }
+  
+    .state-zipcode-fields17 {
+      gap: 24px 48px;
+      padding: 36px 62px var(--padding-6xl);
+      box-sizing: border-box;
+    }
+  
+    .business-registration-parent17 {
+      gap: 30px 61px;
+    }
+  
+    .subtract-button-parent17 {
+      gap: 25px 50px;
+    }
+  
+    .register-as-store-owner17 {
+      gap: 30px 119px;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .bitewise117 {
+      font-size: var(--font-size-3xl);
+    }
+  
+    .add-business17 {
+      font-size: var(--font-size-lgi);
+    }
+  
+    .owner-details17 {
+      font-size: var(--font-size-lgi);
+    }
+  
+    .state-zipcode-fields17 {
+      padding-left: var(--padding-xl);
+      padding-right: var(--padding-xl);
+      box-sizing: border-box;
+    }
+  
+    .business-registration-parent17 {
+      gap: 15px 61px;
+    }
+  }
+  
+  .owner-details-box17 {
+    background-color: #f0f0f0; /* Gray background */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 20px; /* Add margin to separate the button */
+    margin-right: 500px;
+    /* Set a fixed height */
+    height: auto;
+    width: 500px;
+    /* Allow content to overflow and add a scrollbar if necessary */
+  }
+  
+  
+  .owner-details-content17 {
+    text-align: left;
+    margin-top: 10px;
+  }
+  
+  .toggle-details-button17 {
+    text-align: center;
+    margin-right: 675px;
+    margin-bottom: 100px;
+  }
+
+  .show17 {
+    display: block;
+  }
+  
+  .hide17 {
+    display: none;
+  }
+  
+  

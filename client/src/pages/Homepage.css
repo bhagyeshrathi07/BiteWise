@@ -1,0 +1,35 @@
+.union-icon {
+  width: 439.1px;
+  height: 408.4px;
+  position: absolute;
+  margin: 0 !important;
+  top: 434px;
+  left: -250px;
+  object-fit: contain;
+  z-index: 1;
+}
+.homepage {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-41xl) 0px 0px;
+  box-sizing: border-box;
+  gap: var(--gap-101xl);
+  letter-spacing: normal;
+}
+
+@media screen and (max-width: 1200px) {
+  .homepage {
+    gap: 60px 120px;
+  }
+}
+@media screen and (max-width: 825px) {
+  .homepage {
+    gap: 30px 120px;
+  }
+}

@@ -1,0 +1,14 @@
+.checkbox-wrapper input[type="checkbox"] {
+    /* removing default appearance */
+    -webkit-appearance: none;
+    appearance: none;
+    /* creating a custom design */
+    width: 1.6em;
+    height: 1.6em;
+    border-radius: 0.15em;
+    margin-right: -0.5em;
+    margin-top: 0.39em;
+    border: 0.15em solid #000000;
+    outline: none;
+    cursor: pointer;
+  }

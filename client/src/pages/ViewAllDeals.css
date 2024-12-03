@@ -1,0 +1,62 @@
+.view-all-deals {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 60px var(--padding-xl) 209px;
+  box-sizing: border-box;
+}
+
+.view-all-deals-header {
+  width: calc(100% - 40px);
+  margin: 0 auto;
+  padding: 20px;
+  align-self: stretch;
+  border-bottom: 1px solid var(--color-gray-100);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+  margin-bottom: 60px;
+}
+.view1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 101px;
+}
+.view-all-deals-frame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+  max-width: 100%;
+  padding: 0 20px;
+}
+@media screen and (max-width: 675px) {
+  .view-all-deals {
+    gap: 49px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .view-all-deals {
+    gap: 24px;
+  }
+}

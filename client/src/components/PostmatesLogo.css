@@ -1,0 +1,177 @@
+/* Used for Uber Eats Label */
+.group-icon,
+.postmates {
+  position: relative;
+  z-index: 1;
+}
+.postmates {
+  margin: 0;
+  font-size: inherit;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-family: inherit;
+}
+.group-icon {
+  width: 29px;
+  height: 27px;
+}
+.grub-hub-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.svg-icon {
+  height: 29px;
+  width: 29px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.postmates-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.div,
+.est-fee {
+  position: relative;
+  font-weight: 500;
+}
+.div {
+  width: 68px;
+  text-transform: capitalize;
+  display: inline-block;
+  white-space: nowrap;
+  z-index: 1;
+}
+.est-fee {
+  align-self: stretch;
+  font-size: var(--font-size-base);
+  color: #808080;
+  z-index: 2;
+}
+.order-button {
+  width: 75px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.est-time,
+.min {
+  position: relative;
+  font-weight: 500;
+}
+.min {
+  width: 80px;
+  text-transform: capitalize;
+  display: inline-block;
+  z-index: 1;
+}
+.est-time {
+  align-self: stretch;
+  font-size: var(--font-size-base);
+  color: #808080;
+  z-index: 2;
+}
+.order-button1 {
+  width: 91px;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.frame-div,
+.order-button-parent,
+.order-button1 {
+  display: flex;
+  align-items: flex-start;
+}
+.order-button-parent {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-xl);
+}
+.frame-div {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+  min-width: 172px;
+}
+.place-order {
+  position: relative;
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  font-family: var(--font-poppins);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  min-width: 94px;
+}
+.place-order-wrapper {
+  cursor: pointer;
+  border: 1.5px solid var(--color-seagreen);
+  padding: 10px var(--padding-xl);
+  background-color: var(--color-seagreen);
+  align-self: stretch;
+  border-radius: var(--br-3xs);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  white-space: nowrap;
+  z-index: 1;
+}
+.place-order-wrapper:hover {
+  background-color: var(--color-mediumaquamarine);
+  border: 1.5px solid var(--color-mediumaquamarine);
+  box-sizing: border-box;
+}
+.frame-wrapperz {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  min-width: 167px;
+}
+.frame-container,
+.postmates-logo {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frame-container {
+  flex: 1;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: var(--gap-6xs);
+}
+.postmates-logo {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0 var(--padding-11xs) 0 var(--padding-9xs);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-gray-300);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 450px) {
+  .postmates {
+    font-size: var(--font-size-lgi);
+  }
+  .div,
+  .min {
+    font-size: var(--font-size-base);
+  }
+}

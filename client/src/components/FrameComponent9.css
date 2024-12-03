@@ -1,0 +1,184 @@
+/* Used for Uber Eats Label + Compare Prices */
+.group-icon1,
+.grubhub-name {
+  position: relative;
+  z-index: 1;
+}
+.grubhub-name {
+  margin: 0;
+  flex: 1;
+  font-size: inherit;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-family: inherit;
+}
+.group-icon1 {
+  width: 29px;
+  height: 27px;
+}
+.alternative-methods {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.grubhub-parent2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.div1,
+.est-fee1 {
+  position: relative;
+  font-weight: 500;
+}
+.div1 {
+  width: 68px;
+  text-transform: capitalize;
+  display: inline-block;
+  white-space: nowrap;
+  z-index: 1;
+}
+.est-fee1 {
+  align-self: stretch;
+  font-size: var(--font-size-base);
+  color: #808080;
+  z-index: 2;
+}
+.parent-fee {
+  width: 75px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.est-time1,
+.min1 {
+  position: relative;
+  font-weight: 500;
+}
+.min1 {
+  width: 80px;
+  text-transform: capitalize;
+  display: inline-block;
+  z-index: 1;
+}
+.est-time1 {
+  align-self: stretch;
+  font-size: var(--font-size-base);
+  color: #808080;
+  z-index: 2;
+}
+.min-parent {
+  width: 91px;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.frame-parentz2,
+.frame-parentz3,
+.min-parent {
+  display: flex;
+  align-items: flex-start;
+}
+.frame-parentz3 {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-xl);
+}
+.frame-parentz2 {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+  min-width: 172px;
+}
+.place-order1 {
+  position: relative;
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  font-family: var(--font-poppins);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  min-width: 94px;
+}
+.place-order-container {
+  cursor: pointer;
+  border: 1.5px solid var(--color-seagreen);
+  padding: 10px var(--padding-xl);
+  background-color: var(--color-seagreen);
+  align-self: stretch;
+  border-radius: var(--br-3xs);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  white-space: nowrap;
+  z-index: 1;
+}
+.place-order-container:hover {
+  background-color: var(--color-mediumaquamarine);
+  border: 1.5px solid var(--color-mediumaquamarine);
+  box-sizing: border-box;
+}
+.confirm-step-button,
+.frame-parent1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.confirm-step-button {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  min-width: 167px;
+}
+.frame-parent1 {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--gap-6xs);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-gray-300);
+  font-family: var(--font-poppins);
+}
+.frame-parentz1,
+.frame-outside {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frame-outside {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0 var(--padding-11xs) 0 var(--padding-9xs);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-gray-300);
+  font-family: var(--font-poppins);
+}
+.frame-parentz1 {
+  flex: 1;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: var(--gap-6xs);
+}
+
+@media screen and (max-width: 450px) {
+  .grubhub-name {
+    font-size: var(--font-size-lgi);
+  }
+  .div1,
+  .min1 {
+    font-size: var(--font-size-base);
+  }
+}

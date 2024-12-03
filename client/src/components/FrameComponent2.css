@@ -1,0 +1,102 @@
+/* Nearby Restaurants on Homepage */
+.frame-child1 {
+  width: 256px;
+  height: 256px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  object-fit: cover;
+}
+.not-your-mothers {
+  position: relative;
+  font-size: var(--font-size-xl);
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.faasos-wraps {
+  position: relative;
+  text-transform: lowercase;
+  font-weight: 500;
+}
+.faasos-wraps-rolls-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  color: var(--color-gray-100);
+}
+.data-aggregator-icon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+}
+.div2 {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 27px;
+  white-space: nowrap;
+}
+.antdesignstarfilled {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.group-icon1 {
+  height: 17.8px;
+  width: 20px;
+  position: relative;
+}
+.mins1 {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 61px;
+}
+.group-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.antdesignstarfilled-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.rectangle-container {
+  align-self: stretch;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-whitesmoke-100);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-6xl);
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--h4-size);
+  color: var(--color-gray-200);
+  font-family: var(--font-poppins);
+}
+.input-processor {
+  margin-left: auto;
+}
+
+@media screen and (max-width: 450px) {
+  .not-your-mothers {
+    font-size: var(--h4-size);
+  }
+
+  .rectangle-container {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

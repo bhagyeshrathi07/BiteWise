@@ -1,0 +1,153 @@
+.my-cart {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-41xl) 0px 0px;
+  box-sizing: border-box;
+  gap: 20px;
+  letter-spacing: normal;
+  min-height: 100vh;
+}
+.cart2 {
+  align-self: stretch;
+  border-bottom: 1px solid var(--color-gray-100);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}
+.cart1 {
+  margin: 0;
+  width: 313px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+.cart-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 61px;
+  max-width: 100%;
+  padding: 0 20px;
+}
+.cart-item2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0;
+}
+.cart-details {
+  flex: 1;
+  margin-top: -50px;
+  margin-left: var(--padding-41xl);
+  margin-right: var(--padding-41xl);
+}
+.quantity-button2 {
+  border: none;
+  background-color: transparent;
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+  color: #8a8a8a;
+  cursor: pointer;
+}
+.quantity {
+  padding: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+}
+.cart-item-name {
+  max-width: 200px;
+  min-width: 200px;
+}
+.quantity-button2.plus {
+  margin-top: -4px;
+  margin-left: 10px;
+}
+.quantity-button2.minus {
+  margin-right: 10px;
+}
+.quantity-button2:hover {
+  background-color: #fff;
+}
+.compare-prices {
+  background-color: #3b9566;
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-left: auto;
+  text-transform: none;
+}
+.remove-button {
+  width: 132px;
+  height: 25px;
+  background-color: #a7aca9;
+  font-size: small;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  text-transform: none;
+}
+.remove-button:hover {
+  background-color: #bfc4c1;
+}
+.compare-prices:hover {
+  background-color: #41a672;
+}
+.compare-prices-container {
+  display: flex;
+  margin-bottom: 20px;
+}
+.restaurant-name2 {
+  margin-top: 20px;
+  padding-bottom: 10px;
+  color: black;
+  font-weight: 600;
+  font-size: 20px;
+}
+.restaurant-name3 {
+  margin-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 8px;
+  color: #3b9566;
+  font-weight: 600;
+  font-size: 20px;
+}
+.restaurant-name-group {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #ccc;
+}
+.cart-item-name {
+  font-size: 18px;
+}
+.remove-container {
+  margin-left: 10px;
+}

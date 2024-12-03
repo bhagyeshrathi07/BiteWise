@@ -1,0 +1,10 @@
+.delete-button {
+  margin-left: auto;
+}
+.delete {
+  color: "#fff";
+  background-color: #e71010;
+}
+.delete:hover {
+  background-color: #fc5e5e;
+}

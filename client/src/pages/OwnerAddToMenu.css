@@ -1,0 +1,43 @@
+.add-category-wrapper,
+.category-details-wrapper {
+  align-self: center;
+  display: flex;
+  justify-content: center;
+}
+.city-input2 {
+  border: none;
+  background-color: transparent;
+  align-self: stretch;
+  height: 47px;
+  font-family: var(--font-inter);
+  font-weight: 500;
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-100);
+  margin-bottom: 10px;
+  z-index: 1;
+}
+.category-input {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0px var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  gap: 10px;
+}
+.category-fields {
+  margin: 0;
+  width: 1142px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-whitesmoke-200);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 56px 249px 38px;
+  box-sizing: border-box;
+  gap: 20px;
+  max-width: 100%;
+}

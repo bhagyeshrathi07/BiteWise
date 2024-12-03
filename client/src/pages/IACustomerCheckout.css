@@ -1,0 +1,625 @@
+.bitewise {
+    margin: 0 !important;
+    position: absolute;
+    right: -54px;
+    bottom: -8px;
+    font-size: inherit;
+    font-weight: 700;
+    font-family: inherit;
+    display: inline-block;
+    min-width: 126px;
+}
+
+.checkout-container{
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-41xl) 0px 0px;
+  box-sizing: border-box;
+  gap: 20px;
+  letter-spacing: normal;
+  min-height: 100vh;
+}
+
+.subtract-icon {
+    height: 20.9px;
+    width: 23.1px;
+    position: relative;
+    border-radius: var(--br-lg);
+}
+
+.section1{
+    margin: auto;
+    font-family: "Poppins", sans-serif;
+    width: 90%;
+}
+
+.logo {
+    align-self: stretch;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-7xs-9) 0px var(--padding-5xs-2);
+    position: relative;
+    cursor: pointer;
+}
+
+.logo-wrapper {
+    height: 41.5px;
+    width: 105px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-5xs-5) 0px 0px;
+    box-sizing: border-box;
+}
+
+.last-name-field {
+    border: none;
+    background-color: transparent;
+    height: 49px;
+    flex: 1;
+    font-family: var(--font-inter);
+    font-weight: 500;
+    font-size: var(--h4-size);
+    color: var(--color-gray-100);
+    opacity: 0.75;
+    min-width: 292px;
+    max-width: 100%;
+}
+
+.calorie-info-icon {
+    position: absolute;
+    height: 39.33%;
+    width: 32%;
+    top: 7%;
+    right: 36%;
+    bottom: 53.67%;
+    left: 32%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+
+.delivery-info {
+    position: absolute;
+    height: 68%;
+    width: 68%;
+    top: 28.67%;
+    right: 17.67%;
+    bottom: 3.33%;
+    left: 14.33%;
+    border-radius: var(--br-8xs-6);
+    border: 2px solid var(--color-gray-200);
+    box-sizing: border-box;
+    z-index: 1;
+}
+
+.bag {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.sign-in-instance {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-3xs-5) 0px 0px;
+}
+
+.sign-in {
+    height: 49px;
+    width: 96px;
+}
+
+.first-name-field {
+    width: 626px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-6xl);
+    max-width: 100%;
+}
+
+.image-1-icon {
+    height: 68px;
+    width: 213px;
+    position: absolute;
+    margin: 0 !important;
+    top: -10px;
+    left: -25px;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.frame-group {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    position: relative;
+    max-width: 100%;
+    gap: var(--gap-xl);
+}
+
+.register1 {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    font-weight: 600;
+    font-family: inherit;
+    display: inline-block;
+    min-width: 101px;
+}
+
+.register-wrapper {
+    align-self: stretch;
+    border-bottom: 1px solid var(--color-gray-100);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-3xs);
+    top: 0;
+    z-index: 99;
+    position: sticky;
+    text-align: left;
+    font-size: var(--font-size-5xl);
+    color: var(--color-black);
+    font-family: var(--font-poppins);
+}
+
+.email-label-child {
+    width: 1142px;
+    height: 569px;
+    position: relative;
+    border-radius: var(--br-xl);
+    background-color: var(--color-whitesmoke-200);
+    display: none;
+    max-width: 100%;
+}
+
+.create-your-account {
+    margin: 0;
+    position: relative;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: var(--font-poppins);
+    color: var(--color-gray-200);
+    text-align: left;
+    z-index: 1;
+}
+
+.sub-sections {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    padding: 0px var(--padding-xl);
+}
+
+.first-name {
+    border: none;
+    background-color: transparent;
+    height: 54px;
+    flex: 1;
+    font-family: var(--font-roboto);
+    font-size: var(--h4-size);
+    color: var(--color-gray-100);
+    min-width: 300px;
+    z-index: 1;
+}
+
+.last-name {
+    border: none;
+    background-color: transparent;
+    height: 54px;
+    flex: 1;
+    font-family: var(--font-roboto);
+    font-size: var(--h4-size);
+    color: var(--color-gray-100);
+    min-width: 300px;
+    z-index: 1;
+}
+
+.first-name-parent {
+    height: fit-content;
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0px 0px 3px;
+    gap: 12px;
+}
+
+.phone-number {
+    border: none;
+    background-color: transparent;
+    align-self: stretch;
+    height: 54px;
+    font-family: var(--font-roboto);
+    font-size: var(--h4-size);
+    color: var(--color-gray-100);
+    z-index: 1;
+}
+
+.phone-number1 {
+    border: none;
+    background-color: transparent;
+    height: 54px;
+    flex: 1;
+    font-family: var(--font-roboto);
+    font-size: var(--h4-size);
+    color: var(--color-gray-100);
+    max-width: 100%;
+    z-index: 1;
+}
+
+.phone-number-wrapper {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0px 0px 7px;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+.phone-number2 {
+    border: none;
+    background-color: transparent;
+    height: 54px;
+    flex: 1;
+    font-family: var(--font-roboto);
+    font-size: var(--h4-size);
+    color: var(--color-gray-100);
+    max-width: 100%;
+    z-index: 1;
+}
+
+.phone-number-container {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0px 0px var(--padding-7xs);
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+.phone-number3 {
+    border: none;
+    background-color: transparent;
+    align-self: stretch;
+    height: 54px;
+    font-family: var(--font-roboto);
+    font-size: var(--h4-size);
+    color: var(--color-gray-100);
+    z-index: 1;
+}
+
+.sign-in-here {
+    text-decoration: underline;
+}
+
+.already-have-an-container {
+    width: 296px;
+    height: 23px;
+    position: relative;
+    font-size: var(--font-size-sm);
+    font-weight: 500;
+    font-family: var(--font-inter);
+    color: var(--color-gray-100);
+    text-align: left;
+    display: inline-block;
+    flex-shrink: 0;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.register-button {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-5xs);
+    max-width: 100%;
+}
+
+.password-label {
+    width: 622px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 17px;
+    max-width: 100%;
+}
+
+.sign-in1 {
+    height: 49px;
+    width: 200px;
+    margin-left: 20px;
+}
+
+.sign-in-parent {
+    width: 250px;
+    border: 1px #000000;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px var(--padding-12xs) 0px 0px;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+.checkout-form-wrapper {
+    margin: 0;
+    width: 720px;
+    border-radius: var(--br-xl);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    padding: 10px;
+    gap: 29px;
+    max-width: 100%;
+}
+
+.phone-number-label {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0px var(--padding-3xl) 0px var(--padding-xl);
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+.first-body{
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+}
+
+.first-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 47px;
+    max-width: 100%;
+}
+
+.frame-parent {
+    width: 1520px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-31xl);
+    max-width: 100%;
+}
+
+.register-inner {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0px var(--padding-xl);
+    box-sizing: border-box;
+    max-width: 100%;
+    text-align: left;
+    font-size: var(--font-size-9xl);
+    color: var(--color-gray-200);
+    font-family: var(--font-poppins);
+}
+
+
+.delivery-payment-header{
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.loc-icon{
+    height: 22px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+.delivery-sub{
+    margin-left: 25px;
+    
+}
+
+.street-address{
+    width: 626px;
+    margin-top: 10px;
+}
+
+.city-field{
+    width: 626px;
+    margin-top: 10px;
+}
+
+.name-field{
+    width: 305px;
+    margin-top: 10px;
+}
+
+.city-state-info{
+    display: flex;
+    margin: 0 auto;
+    gap: 15px
+}
+
+.payment-info{
+    display: flex;
+    margin: 0 auto;
+    gap: 15px;
+}
+
+.payments-img{
+    height: 50px;
+}
+
+.delivery-payment-sections{
+    margin-bottom: 50px;
+}
+
+.cart-wrapper{
+    display: flex;
+    flex-direction: column;
+    background: #F8F8F8;
+    width: 400px;
+    height: fit-content;
+    border-radius: 15px;
+    padding: 25px;
+}
+
+.cart-header{
+    margin: 0px;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.cart-item{
+    max-width: 100%;
+    max-height: 20%;
+    display: flex;
+}
+
+.order-info{
+    display: flexbox;
+    font-size: 14px;
+}
+
+.quantity-btns{
+    width: 105px;
+    display: flex;
+    font-size: 14px;
+    justify-content: space-between;
+}
+
+.item-quantity{
+    width: 30px;
+    text-align: center;
+    height: 'fit-content';
+    margin-top: 7px;
+}
+
+.item-name{
+    font-size: 12px;
+}
+
+.subtotal-div{
+    max-height: 200px;
+}
+
+.item-total-div{
+    font-size: 14px;
+    display: flex;
+    color:#7a7979;
+}
+
+.label{
+    height: fit-content;
+}
+
+.value{
+    height: fit-content;
+    margin-left: 220px;
+}
+
+.taxprice-val{
+    margin-left: 255px;
+}
+
+.total-price-div{
+    font-size: 20px;
+    display: flex;
+    color: black;
+}
+
+.total-value{
+    margin-left: 220px;
+}
+
+.delivery-label{
+    width: fit-content;
+}
+
+.delivery-val{
+    margin-left: 212px;
+}
+
+
+
+
+@media screen and (max-width: 975px) {
+    .register {
+        gap: 144px 289px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .frame-group {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .first-name-field {
+        flex-wrap: wrap;
+    }
+
+    .email-label {
+        padding-top: var(--padding-20xl);
+        padding-bottom: var(--padding-xl);
+        box-sizing: border-box;
+    }
+
+    .first-parent {
+        gap: 23px 47px;
+    }
+
+    .frame-parent {
+        gap: 25px 50px;
+    }
+
+    .register {
+        gap: 72px 289px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .bitewise {
+        font-size: var(--font-size-3xl);
+    }
+
+    .create-your-account {
+        font-size: var(--font-size-lgi);
+    }
+}
+

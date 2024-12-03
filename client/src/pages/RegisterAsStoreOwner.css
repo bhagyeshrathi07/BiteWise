@@ -1,0 +1,561 @@
+.subtract-icon1 {
+  width: 23.1px;
+  height: 20.9px;
+  position: relative;
+  border-radius: var(--br-lg);
+  flex-shrink: 0;
+}
+.search-bar {
+  height: 26.8px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs-9) 0px 0px;
+  box-sizing: border-box;
+}
+.bitewise1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 126px;
+  flex-shrink: 0;
+}
+.bite-wise-label {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 9.9px;
+}
+.image-placeholder-child {
+  border: none;
+  background-color: transparent;
+  height: 49px;
+  flex: 1;
+  font-family: var(--font-inter);
+  font-weight: 500;
+  font-size: var(--h4-size);
+  color: var(--color-gray-100);
+  opacity: 0.75;
+  min-width: 292px;
+  max-width: 100%;
+}
+.vector-icon {
+  position: absolute;
+  height: 39.33%;
+  width: 32%;
+  top: 7%;
+  right: 36%;
+  bottom: 53.67%;
+  left: 32%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.bag-child {
+  position: absolute;
+  height: 68%;
+  width: 68%;
+  top: 28.67%;
+  right: 17.67%;
+  bottom: 3.33%;
+  left: 14.33%;
+  border-radius: var(--br-8xs-6);
+  border: 2px solid var(--color-gray-200);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.bag1 {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.category-field {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs-5) 0px 0px;
+}
+.sign-in2 {
+  height: 49px;
+  width: 96px;
+}
+.image-placeholder {
+  width: 626px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-6xl);
+  max-width: 100%;
+}
+.image-1-icon1 {
+  height: 68px;
+  width: 213px;
+  position: absolute;
+  margin: 0 !important;
+  top: -10px;
+  left: -31px;
+  object-fit: cover;
+  z-index: 1;
+}
+.subtract-button {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 0px 0px 0px;
+  box-sizing: border-box;
+  position: relative;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.register-business {
+  margin: 0;
+  width: 313px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+.business-registration {
+  align-self: stretch;
+  border-bottom: 1px solid var(--color-gray-100);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}
+.state-zipcode-fields-child {
+  width: 1142px;
+  height: 725px;
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--color-whitesmoke-200);
+  display: none;
+  max-width: 100%;
+}
+.state-zipcode-fields-item {
+  width: 192px;
+  height: 36px;
+  display: none;
+}
+.state-zipcode-fields-inner {
+  width: 309px;
+  display: none;
+}
+.add-business {
+  margin: 0;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  font-weight: 600;
+  font-family: var(--font-poppins);
+  color: var(--color-gray-200);
+  text-align: left;
+  z-index: 1;
+}
+.email-input-field {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0px var(--padding-xl);
+}
+.frame-child-name {
+  border: none;
+  background-color: transparent;
+  height: 47px;
+  flex: 1;
+  font-family: var(--font-inter);
+  font-weight: 500;
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-100);
+  min-width: 198px;
+  z-index: 2;
+}
+.frame-item {
+  border: none;
+  background-color: transparent;
+  height: 49px;
+  flex: 1;
+  font-family: var(--font-inter);
+  font-weight: 500;
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-100);
+  min-width: 198px;
+  z-index: 2;
+}
+.frame-container {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 0px 0px var(--padding-9xs);
+  gap: var(--gap-smi);
+  margin-bottom: 20px;
+}
+.city-input {
+  border: none;
+  background-color: transparent;
+  align-self: stretch;
+  height: 47px;
+  font-family: var(--font-inter);
+  font-weight: 500;
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-100);
+  z-index: 1;
+  margin-bottom: 20px;
+}
+.subtract-icon2 {
+  border: none;
+  background-color: transparent;
+  align-self: stretch;
+  height: 47px;
+  font-family: var(--font-inter);
+  font-weight: 500;
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-100);
+  z-index: 1;
+}
+.blog-label {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 2px 0px 0px;
+  box-sizing: border-box;
+  min-width: 155px;
+}
+.delivery-info-label {
+  border: none;
+  background-color: transparent;
+  height: 47px;
+  width: 173px;
+  font-family: var(--font-inter);
+  font-weight: 500;
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-100);
+  z-index: 1;
+}
+.delivery-info-label1 {
+  border: none;
+  background-color: transparent;
+  height: 47px;
+  width: 173px;
+  font-family: var(--font-inter);
+  font-weight: 500;
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-100);
+  z-index: 1;
+}
+.calorie-calculator-label {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px var(--padding-5xs);
+  gap: 19px;
+  margin-bottom: 20px;
+}
+.city-input1 {
+  border: none;
+  background-color: transparent;
+  align-self: stretch;
+  height: 47px;
+  font-family: var(--font-inter);
+  font-weight: 500;
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-100);
+  z-index: 2;
+}
+.zipcode-input {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 10px;
+  max-width: 100%;
+}
+.state-input {
+  width: 630px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-9xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.owner-details {
+  margin: 0;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  font-weight: 600;
+  font-family: var(--font-poppins);
+  color: var(--color-gray-200);
+  text-align: left;
+  z-index: 2;
+}
+.owner-details-wrapper {
+  width: 608px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0px var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.phone-number-input1 {
+  border: none;
+  background-color: transparent;
+  height: 47px;
+  flex: 1;
+  font-family: var(--font-inter);
+  font-weight: 500;
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-100);
+  min-width: 198px;
+  z-index: 1;
+}
+.last-name-input-child {
+  border: none;
+  background-color: transparent;
+  height: 49px;
+  flex: 1;
+  font-family: var(--font-inter);
+  font-weight: 500;
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-100);
+  min-width: 198px;
+  z-index: 1;
+}
+.last-name-input {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: center;
+  gap: var(--gap-smi);
+}
+.frame-parent12 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.phone-number-email {
+  border: none;
+  background-color: transparent;
+  align-self: stretch;
+  height: 54px;
+  font-family: var(--font-inter);
+  font-weight: 500;
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-100);
+  z-index: 1;
+}
+.phone-number-email1 {
+  border: none;
+  background-color: transparent;
+  align-self: stretch;
+  height: 54px;
+  font-family: var(--font-inter);
+  font-weight: 500;
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-100);
+  z-index: 1;
+}
+.phone-number-email-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px 14px;
+  gap: 20px;
+}
+.sign-in3 {
+  height: 49px;
+  width: 143px;
+  z-index: 1;
+}
+.sign-in-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0px var(--padding-xl) 0px var(--padding-8xl);
+}
+.frame-divv {
+  width: 622px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 18px;
+  max-width: 100%;
+}
+.state-zipcode-fields {
+  margin: 0;
+  width: 1142px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-whitesmoke-200);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 56px 249px 38px;
+  box-sizing: border-box;
+  gap: 48px;
+  max-width: 100%;
+}
+.phone-number-input {
+  width: 1506px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0px var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.business-registration-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 61px;
+  max-width: 100%;
+}
+.subtract-button-parent {
+  width: 1520px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-31xl);
+  max-width: 100%;
+}
+.store-registration {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0px var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-9xl);
+  color: var(--color-gray-200);
+  font-family: var(--font-poppins);
+}
+.register-as-store-owner {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-41xl) 0px 0px;
+  box-sizing: border-box;
+  gap: 119px;
+  letter-spacing: normal;
+}
+
+@media screen and (max-width: 1125px) {
+  .state-zipcode-fields {
+    padding-left: var(--padding-105xl);
+    padding-right: var(--padding-105xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1025px) {
+  .subtract-button {
+    flex-wrap: wrap;
+  }
+
+  .register-as-store-owner {
+    gap: 59px 119px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .image-placeholder {
+    flex-wrap: wrap;
+  }
+
+  .state-zipcode-fields {
+    gap: 24px 48px;
+    padding: 36px 62px var(--padding-6xl);
+    box-sizing: border-box;
+  }
+
+  .business-registration-parent {
+    gap: 30px 61px;
+  }
+
+  .subtract-button-parent {
+    gap: 25px 50px;
+  }
+
+  .register-as-store-owner {
+    gap: 30px 119px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .bitewise1 {
+    font-size: var(--font-size-3xl);
+  }
+
+  .add-business {
+    font-size: var(--font-size-lgi);
+  }
+
+  .owner-details {
+    font-size: var(--font-size-lgi);
+  }
+
+  .state-zipcode-fields {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+
+  .business-registration-parent {
+    gap: 15px 61px;
+  }
+}

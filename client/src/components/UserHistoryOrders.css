@@ -1,0 +1,37 @@
+.history-orders {
+    width: 100%;
+    border-collapse: collapse;
+    padding: 0 20px 30px;
+  }
+  
+  .history-orders table {
+    width: 100%;
+    border: 2px solid #307651;
+    border-radius: 10px;
+  }
+  .cancel-order {
+    background-color: #d63737;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .history-orders th,
+  .history-orders td {
+    padding: 8px;
+  }
+  
+  .history-orders th {
+    background-color: #f2f2f2;
+  }
+  
+  .history-orders tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .history-orders tbody tr:hover {
+    background-color: #cdeedd;
+  }
+  

@@ -1,0 +1,307 @@
+.food-item-inner {
+  background-color: rgb(147, 182, 124);
+  top: 0;
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: left;
+  padding: 0px var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+.restaurant-info {
+  width: 100%;
+  top: 0;
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: left;
+  padding: 0px var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  margin-left: var(--padding-59xl);
+}
+
+.restaurant-photo {
+  width: 150px;
+  height: 150px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  object-fit: cover;
+  margin: 30px;
+}
+
+.restaurant-name {
+  align-self: left;
+  position: relative;
+  font-size: var(--font-size-xl);
+  text-transform: capitalize;
+  font-weight: 500;
+  color: white;
+  margin-top: 70px;
+}
+
+.restaurant-details {
+  width: 100%;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: left;
+  padding: 0px var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  position: relative;
+  text-transform: lowercase;
+  font-weight: 500;
+  color: white;
+  line-height: 0;
+}
+
+.food-item {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-41xl) 0px 0px;
+  box-sizing: border-box;
+  letter-spacing: normal;
+}
+
+.menu {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-41xl) 0px 100px;
+  box-sizing: border-box;
+  letter-spacing: normal;
+}
+
+.menu-items {
+  flex: 1;
+  padding-left: 70px;
+  border-left: 1px solid #ccc;
+}
+
+.menu-item h3 {
+  margin: 0;
+}
+
+.menu-item {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.item-info {
+  flex: 1;
+}
+
+.add-button {
+  margin-right: 100px;
+  margin-left: 100px;
+  background-color: var(--color-white);
+  color: #29a679;
+  box-shadow: 0 2px 4px #6a756d;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.menu-category {
+  cursor: pointer;
+  padding-left: 200px;
+  margin-right: 70px;
+}
+
+.rating img {
+  margin-right: 5px;
+}
+
+.french-patisserie2 {
+  position: relative;
+  text-transform: none;
+  font-weight: 500;
+}
+
+.rating,
+.delivery-time,
+.cost {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.info-container {
+  display: flex;
+}
+
+.rating::after,
+.delivery-time::after {
+  content: "";
+  width: 1px;
+  height: 40px;
+  background-color: white;
+  margin: 0 20px;
+}
+
+.frame-parent5 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.frame-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-sm);
+  box-sizing: border-box;
+  max-width: 100%;
+  margin-top: 20px;
+}
+
+.cart {
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-41xl) 0px 0px;
+  box-sizing: border-box;
+  letter-spacing: normal;
+  padding-right: 70px;
+  margin-top: -60px;
+}
+
+.cart h2 {
+  margin: 0;
+}
+
+.cart p {
+  font-weight: 600;
+}
+
+.cart-items {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+
+.cart-total {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cart-total h3 {
+  margin-left: 90px;
+}
+
+.cart-item {
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
+
+.cart-item-info {
+  display: flex;
+  flex-direction: column;
+  margin-right: 50px;
+}
+
+.cart-item-info h3 {
+  font-size: 16px;
+  margin-bottom: 0px;
+}
+
+.cart-item-info p {
+  color: #808080;
+  line-height: 0.2;
+}
+
+.cart-item-quantity {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  justify-content: flex-end;
+}
+
+.cart-name {
+  color: #3b9566;
+  display: inline;
+  font-weight: 600;
+}
+
+.compare-prices {
+  background-color: #3b9566;
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.quantity-button {
+  background-color: white;
+  cursor: pointer;
+  border: none;
+  font-size: 20px;
+  padding: 10px 10px;
+}
+
+.offer {
+  color: #2f7c31;
+  margin-top: auto;
+  border: 2px dashed #2f7c31;
+  width: 400px;
+  height: 100px;
+  margin-bottom: 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  padding: 30px;
+  border-radius: 15px;
+}
+
+.offer h3 {
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+.offer p {
+  color: white;
+  margin: 0;
+}
+
+.offer .offer-details {
+  display: flex;
+  align-items: center;
+}

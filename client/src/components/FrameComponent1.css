@@ -1,0 +1,405 @@
+/* In App Restaurants on Home Page CSS */
+
+.nearby-restaurants {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+}
+.frame-child2 {
+  width: 256px;
+  height: 256px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  object-fit: cover;
+}
+.swap-diet {
+  margin: 0;
+}
+.box {
+  margin: 0;
+}
+.swap-diet-container {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-xl);
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.healthy-food-salads {
+  position: relative;
+  text-transform: lowercase;
+  font-weight: 500;
+}
+.vector-icon3 {
+  height: 20px;
+  width: 20.9px;
+  position: relative;
+}
+.div3 {
+  position: relative;
+  text-transform: lowercase;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 23px;
+}
+.vector-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+  color: var(--color-gray-200);
+}
+.healthy-food-salads-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  color: var(--color-gray-100);
+}
+.group-icon2 {
+  height: 17.8px;
+  width: 20px;
+  position: relative;
+}
+.mins2 {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 63px;
+}
+.group-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.vector-icon4 {
+  height: 15.9px;
+  width: 20px;
+  position: relative;
+}
+.div4 {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 11px;
+}
+.vector-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.frame-parent9 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.rectangle-parent1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-xl);
+}
+.frame-wrapper4 {
+  align-self: stretch;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-whitesmoke-100);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-6xl);
+}
+.frame-parent8 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-23xl);
+  min-width: 200px;
+}
+.frame-parent8 .frame-component-container {
+  width: calc(
+    50% - var(--gap-23xl) / 2
+  ); /* Adjust width for two items per row */
+}
+.frame-parent10 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-25xl);
+  min-width: 200px;
+}
+.group-div {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+  font-size: var(--h4-size);
+}
+.nearby-restaurants-parent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+  min-width: 419px;
+  max-width: 100%;
+}
+.recommended-food-items {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.customer-details-icon {
+  width: 256px;
+  height: 256px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  object-fit: cover;
+}
+.paneer-tikka-rice {
+  margin: 0;
+}
+.bowl {
+  margin: 0;
+}
+.paneer-tikka-rice-container {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-xl);
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.the-good-bowl {
+  position: relative;
+  text-transform: lowercase;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 116px;
+}
+.shanxi-china {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  color: var(--color-gray-100);
+}
+.seoul-south-korea {
+  height: 20px;
+  width: 20px;
+  position: relative;
+}
+.div5 {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 22px;
+  white-space: nowrap;
+}
+.kim-young-jou {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.group-icon3 {
+  height: 17.8px;
+  width: 20px;
+  position: relative;
+}
+.mins3 {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 61px;
+}
+.group-parent1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.kim-young-jou-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.customer-details-parent {
+  align-self: stretch;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-whitesmoke-100);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-6xl);
+  gap: var(--gap-xl);
+}
+.frame-parent12 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-23xl);
+  min-width: 200px;
+}
+.frame-parent13 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-23xl);
+  min-width: 200px;
+}
+.frame-parent11 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+  font-size: var(--h4-size);
+}
+.recommended-food-items-parent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+  min-width: 419px;
+  max-width: 100%;
+}
+.frame-parent7 {
+  width: 1448px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-141xl);
+  max-width: 100%;
+}
+.homepage-inner {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0px var(--padding-xl) var(--padding-xs);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-gray-200);
+  font-family: var(--font-poppins);
+}
+
+@media screen and (max-width: 1400px) {
+  .frame-parent7 {
+    gap: var(--gap-61xl);
+  }
+}
+@media screen and (max-width: 825px) {
+  .frame-wrapper4 {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+
+  .group-div {
+    flex-wrap: wrap;
+  }
+
+  .nearby-restaurants-parent {
+    min-width: 100%;
+  }
+
+  .customer-details-parent {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+
+  .frame-parent11 {
+    flex-wrap: wrap;
+  }
+
+  .recommended-food-items-parent {
+    min-width: 100%;
+  }
+
+  .frame-parent7 {
+    gap: var(--gap-21xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .nearby-restaurants {
+    font-size: var(--font-size-lgi);
+  }
+
+  .swap-diet-container {
+    font-size: var(--h4-size);
+  }
+
+  .frame-parent8 {
+    gap: 21px 42px;
+  }
+
+  .frame-parent10 {
+    gap: 22px 44px;
+  }
+
+  .recommended-food-items {
+    font-size: var(--font-size-lgi);
+  }
+
+  .paneer-tikka-rice-container {
+    font-size: var(--h4-size);
+  }
+
+  .frame-parent12 {
+    gap: 21px 42px;
+  }
+
+  .frame-parent13 {
+    gap: 21px 42px;
+  }
+
+  .frame-parent7 {
+    gap: var(--gap-xl);
+  }
+}
